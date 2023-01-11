@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+body{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg);
+    font-family: Fantasy;
+    color:rgb(57, 92, 70);
+    text-shadow: -1px -1px 0 rgb(141, 209, 141), 1px -1px 0 rgb(141, 209, 141), -1px 1px 0 rgb(141, 209, 141), 1px 1px 0 rgb(141, 209, 141);
+}
+
+.page_title{
+    text-align: center;
+    font-family: Fantasy;
+    color:rgb(232, 206, 233);
+    text-shadow: -1px -1px 0 rgb(97, 57, 105), 1px -1px 0 rgb(97, 57, 105), -1px 1px 0 rgb(97, 57, 105), 1px 1px 0 rgb(97, 57, 105);
+    background-color: rgb(0, 128, 0, 0.8);
+}
+/*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">*/
+.super_title{
+    margin-top: -10px;
+    text-align: center;
+    font-family: 'Audiowide';
+    font-size: 50px;
+    font-style: italic;
+    color:rgb(232, 206, 233);
+    text-shadow: -2px -2px 0 rgb(97, 57, 105), 2px -2px 0 rgb(97, 57, 105), -2px 2px 0 rgb(97, 57, 105), 2px 2px 0 rgb(97, 57, 105);
+    background-color: rgb(0, 128, 0, 0.8);
+}
+
+.resized_image {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+.center{
+    position: fixed; /* or absolute */
+    background-color: rgba(166, 47, 170, 0.8);
+}
+
+.left-side{
+    align-items: left;
+}
+
+.right-side{
+    align-items: right;
+}
+
+.right-side-kermit{
+    align-items: right;
+    size-adjust: 10%;
+}
+
+.page {
+    background-color: rgba(166, 47, 170, 0.8);
+    max-width: 500px;
+    position: bottom;
+  }
+
+td {
+    border: 0px ;
+    text-align: center;
+    padding: 8px;
+}
